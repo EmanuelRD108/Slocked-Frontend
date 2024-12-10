@@ -1,0 +1,13 @@
+**/node_modules
+
+**/dist
+.vscode
+
+**/storybook-static
+**/build-storybook.log
+
+.DS_Store
+
+coverage
+
+.env

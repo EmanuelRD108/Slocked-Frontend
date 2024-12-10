@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES5",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "allowJs": true,
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "dist/typings",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "~/themes/*": ["themes/*"],
+      "~/test/*": ["test/*"],
+      "~/*": ["src/*"]
+    }
+  },
+  "include": ["test/**/*", "src/**/*"],
+  "exclude": ["node_modules"]
+}
